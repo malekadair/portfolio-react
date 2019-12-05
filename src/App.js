@@ -10,7 +10,9 @@ function App() {
     <Fragment>
       <Header />
       <Nav />
+      <div class="fade1"></div>
       <Main />
+      <div class="fade3"></div>
       <Footer />
     </Fragment>
   );

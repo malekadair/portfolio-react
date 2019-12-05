@@ -1,13 +1,10 @@
 import React from "react";
+import headshot from "./assets/headshot.jpeg";
 
 function Header() {
   return (
     <header>
-      <img
-        className="face"
-        src="assets/headshot.jpeg"
-        alt="My lovely headshot."
-      />
+      <img className="face" src={headshot} alt="My lovely headshot." />
       <section className="greeting">
         <h2>My name is</h2>
         <h1>Malek.</h1>

@@ -4,10 +4,11 @@ import Projects from "./Projects";
 
 function Main() {
   return (
-    <div>
+    <main>
       <About />
+      <div class="fade2"></div>
       <Projects />
-    </div>
+    </main>
   );
 }
 
